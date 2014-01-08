@@ -1,0 +1,38 @@
+// Colores Mundo Ludic
+$ml-blue: #0075b2;
+$ml-violet: #aa68aa;
+$ml-orange: #eb9522;
+$ml-creme: #fddf7e;
+$ml-yellow: #faed3d;
+$ml-light-blue: #a4c3dc;
+$ml-green: #d7df21;
+
+$grey: #666;
+
+$black: #151515;
+$white: #fff;
+$red: #ff0000;
+
+// Colores foundation
+$warning-color: lighten($red, 40%);
+
+// botones
+$button-font-tny: rem-calc(13);
+
+// border border-radius
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+
+// box-shadow
+@mixin box-shadow($color) {
+  -webkit-box-shadow: 1px 2px 5px $color;
+     -moz-box-shadow: 1px 2px 5px $color;
+      -ms-box-shadow: 1px 2px 5px $color;
+       -o-box-shadow: 1px 2px 5px $color;
+          box-shadow: 1px 2px 5px $color;
+}

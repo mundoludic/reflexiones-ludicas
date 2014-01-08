@@ -39,12 +39,13 @@
 
 <body <?php body_class('antialiased'); ?>>
 
-<header class="contain-to-grid">
+<!-- <header class="contain-to-grid"> -->
 	<!-- Starting the Top-Bar -->
+	<div id="menu" class="fixed">
 	<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
-	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo-top-bar" src="<?php echo get_template_directory_uri(); ?>/images/icons/logoTopBarEmpty.png" title="Mundo Ludic">MUNDO LUDIC</a></h1>
 	        </li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -83,9 +84,42 @@
 	    ?>
 	    </section>
 	</nav>
+	</div>
 	<!-- End of Top-Bar -->
-</header>
+<!-- </header> -->
+
+    <!-- HEAD -->
+    <div class="container">
+      <div id="head" class="small-12 large-12 columns">
+
+        <div class="small-12 large-12 columns social-head">
+
+          <div class="small-6 large-6 columns switch-lang">
+            <a href="http://www.mundoludic.com/">Castellano</a>&nbsp; / &nbsp;<a href="http://www.mundoludic.com/">Català</a>
+          </div>
+        <div class="small-6 large-6 columns text-right">
+          <a href="https://www.facebook.com/mundoludic.Page" target="_blank"><img class="facebook" src="<?php echo get_template_directory_uri(); ?>/images/icons/social-icon-empty.png"></a>
+          <a href="https://twitter.com/MundoLudic" target="_blank"><img class="twitter" src="<?php echo get_template_directory_uri(); ?>/images/icons/social-icon-empty.png"></a>
+        </div>
+
+      </div>
+
+      <div class="small-12 large-12 columns text-center">
+        <a href="#/"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-empty.png"></a>
+      </div>
+
+      <div class="small-12 large-12 columns text-center slogan">
+        <h3>Mueve el mundo <strong class="mundoludic">MUNDO LUDIC</strong></h3>
+      </div>
+
+      <div class="small-12 large-12 columns text-center alta-proveedor">
+        <h5>Si eres artista únete a Mundo Ludic...</h5>
+        <a href="#" class="button radius tiny">Regístrate gratis</a>
+      </div>
+
+      </div>
+    </div>
 
 <!-- Start the main container -->
-<div class="container" role="document">
+<div class="container" role="document" id="main">
 	<div class="row">
