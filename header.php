@@ -95,7 +95,7 @@
         <div class="small-12 large-12 columns social-head">
 
           <div class="small-6 large-6 columns switch-lang">
-            <a href="http://www.mundoludic.com/">Castellano</a>&nbsp; / &nbsp;<a href="http://www.mundoludic.com/">Català</a>
+            <a href="<?php echo esc_url( home_url( '/' ) ); ?>es/">Castellano</a>&nbsp; / &nbsp;<a href="<?php echo esc_url( home_url( '/' ) ); ?>ca/">Català</a>
           </div>
         <div class="small-6 large-6 columns text-right">
           <a href="https://www.facebook.com/mundoludic.Page" target="_blank"><img class="facebook" src="<?php echo get_template_directory_uri(); ?>/images/icons/social-icon-empty.png"></a>

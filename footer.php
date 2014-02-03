@@ -10,7 +10,7 @@
 <footer class="full-width" role="contentinfo">
 	<div class="row">
 		<div class="small-12 large-12 columns text-center">
-        <a href="#/"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-empty.png"></a>
+        <a href="#/"><img class="logo-foot" src="<?php echo get_template_directory_uri(); ?>/images/logo-empty.png"></a>
       	</div>
       	<div class="small-12 large-12 columns text-center slogan slogan-foot">
         	<h3>Mueve el mundo <strong class="mundoludic">MUNDO LUDIC</strong></h3>

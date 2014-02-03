@@ -6653,7 +6653,7 @@ a:hover {
 }
 
 .switch-lang {
-  color: #cccccc;
+  color: #3b3b3b;
 }
 
 .text-right {
@@ -6729,6 +6729,14 @@ a:hover {
 
 .logo:hover {
   background: url("../images/logo.png");
+}
+
+.logo-foot {
+  background: url("../images/logo.png");
+}
+
+.logo-foot:hover {
+  background: url("../images/logo-grey.png");
 }
 
 /****** MAIN ********/

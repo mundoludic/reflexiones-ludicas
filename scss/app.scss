@@ -101,7 +101,7 @@ a:hover{
 }
 
 .switch-lang{
-  color: darken($white, 20%);
+  color: lighten($black, 15%);
 }
 
 .text-right{
@@ -179,6 +179,14 @@ a:hover{
 
 .logo:hover{
    background: url('../images/logo.png');
+}
+
+.logo-foot{
+   background: url('../images/logo.png');
+}
+
+.logo-foot:hover{
+   background: url('../images/logo-grey.png');
 }
 
 /****** MAIN ********/
