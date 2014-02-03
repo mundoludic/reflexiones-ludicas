@@ -101,7 +101,11 @@ a:hover{
 }
 
 .switch-lang{
-  color: lighten($black, 15%);
+  margin-top: 10px;
+  a:link{
+    padding: 4px 12px;
+    background-color: lighten($black, 15%);
+  }
 }
 
 .text-right{
