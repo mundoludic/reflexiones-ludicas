@@ -96,6 +96,10 @@ a:hover{
   padding: 0 25px;
 }
 
+.social-foot{
+  margin-bottom: 15px;
+}
+
 .switch-lang{
   color: darken($white, 20%);
 }
@@ -112,6 +116,13 @@ a:hover{
     strong{
       font-weight: normal;
     }
+  }
+}
+
+.slogan-foot{
+  h3{
+    color: lighten($black, 30%);
+    margin-bottom: 20px;
   }
 }
 
@@ -138,6 +149,14 @@ a:hover{
   background: url('../images/icons/twitter-over.png');
 }
 
+.twitter-grey{
+  background: url('../images/icons/twitter-grey.png');
+}
+
+.twitter-grey:hover{
+  background: url('../images/icons/twitter-grey-over.png');
+}
+
 .facebook{
   background: url('../images/icons/facebook.png');
 }
@@ -146,12 +165,20 @@ a:hover{
   background: url('../images/icons/facebook-over.png');
 }
 
+.facebook-grey{
+  background: url('../images/icons/facebook-grey.png');
+}
+
+.facebook-grey:hover{
+  background: url('../images/icons/facebook-grey-over.png');
+}
+
 .logo{
-   background: url('../images/logo.png');
+   background: url('../images/logo-white.png');
 }
 
 .logo:hover{
-   background: url('../images/logo-white.png');
+   background: url('../images/logo.png');
 }
 
 /****** MAIN ********/

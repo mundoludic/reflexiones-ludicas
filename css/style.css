@@ -272,11 +272,11 @@ body > header.contain-to-grid {
 
 #content {
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 1px solid #dddddd;
 }
 
 .index-card {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   padding-bottom: 2rem;
   margin-bottom: 2rem;
 }
@@ -488,14 +488,14 @@ ol.commentlist li section.comment a.comment-reply-link:hover, ol.commentlist li 
   text-transform: uppercase;
   font-size: 1rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddddd;
   color: #888;
   font-weight: 600;
 }
 
 footer.full-width {
   background-color: #fff;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   padding-top: 3rem;
 }
 footer.full-width p {
@@ -509,7 +509,7 @@ footer.full-width a:hover, footer.full-width a:focus {
   color: #444444;
 }
 footer.full-width .love-reverie {
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #cccccc;
   padding-top: 1.5rem;
 }
 
