@@ -16,11 +16,6 @@
         	<h3>Mueve el mundo <strong class="mundoludic">MUNDO LUDIC</strong></h3>
       	</div>
 	</div>
-<!-- 	<div class="row">
-		<div class="large-12 columns">
-			<p>&copy; <?php echo date('Y'); ?> Mundo Ludic</p>
-		</div>
-	</div> -->
 	<div class="row">
 		<div class="small-12 large-12 columns">
 
@@ -41,8 +36,15 @@
 <script>
 	(function($) {
 		$(document).foundation();
+
+		// cambiamos el estilo al boton de subscribete de RSS
+
+		$('#BFW_submit').addClass('button tiny');
+
+		$('#BFW').append('<hr><br><a href="http://feeds.feedburner.com/MundoLudic"><i class="fi-rss"></i><h6>Subscríbite al rss del blog</h6></a>');
+
 	})(jQuery);
 </script>
 	
 </body>
-</html>
+</html>+

@@ -16,6 +16,7 @@
 	<!-- Favicon and Feed -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/icons/foundation-icons.css" />
 
 	<!--  iPhone Web App Home Screen Icon -->
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/img/devices/reverie-icon-ipad.png" />
@@ -35,9 +36,6 @@
 
 <?php wp_head(); ?>
 
-<!-- Almacenamos el idioma en $idioma -->
-<?php $idioma = bloginfo('language'); ?>
-
 </head>
 
 <body <?php body_class('antialiased'); ?>>
@@ -48,7 +46,7 @@
 	<nav class="top-bar" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
-	        	<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo-top-bar" src="<?php echo get_template_directory_uri(); ?>/images/icons/logoTopBarEmpty.png" title="Mundo Ludic">MUNDO LUDIC</a></h1>
+	        	<h1><a href="http://www.mundoludic.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo-top-bar" src="<?php echo get_template_directory_uri(); ?>/images/icons/logoTopBarEmpty.png" title="Mundo Ludic">MUNDO LUDIC</a></h1>
 	        </li>
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
@@ -117,7 +115,7 @@
 
       <div class="small-12 large-12 columns text-center alta-proveedor">
         <h5>Si eres artista únete a Mundo Ludic...</h5>
-        <a href="#" class="button radius tiny">Regístrate gratis</a>
+        <a href="http://www.mundoludic.com/login/#/" class="button radius tiny">Regístrate gratis</a>
       </div>
 
       </div>
