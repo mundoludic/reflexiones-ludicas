@@ -10,6 +10,7 @@
 <article id="post-<?php the_ID(); ?>" <?php post_class('index-card'); ?>>
 	<header>
 		<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+		<h3><?php home_url(); ?></h3>
 		<?php the_date(); ?>
 	</header>
 	<div class="entry-content">

@@ -35,6 +35,9 @@
 
 <?php wp_head(); ?>
 
+<!-- Almacenamos el idioma en $idioma -->
+<?php $idioma = bloginfo('language'); ?>
+
 </head>
 
 <body <?php body_class('antialiased'); ?>>
