@@ -114,8 +114,24 @@
       </div>
 
       <div class="small-12 large-12 columns text-center alta-proveedor">
-        <h5>Si eres artista únete a Mundo Ludic...</h5>
-        <a href="http://www.mundoludic.com/login/#/" class="button radius tiny">Regístrate gratis</a>
+      	<h5>
+      	<?php
+      		if (get_bloginfo('language')=="es-ES"){
+                echo "Si eres artista únete a Mundo Ludic...";
+            }else{
+                echo "Si ets artista uneix-te a Mundo Ludic...";	
+			}
+		?>
+        </h5>
+        <a href="http://www.mundoludic.com/login/#/" class="button radius tiny">
+        	<?php
+	      		if (get_bloginfo('language')=="es-ES"){
+	                echo "Regístrate gratis";
+	            }else{
+	                echo "Registra’t gratis";	
+				}
+			?>
+        </a>
       </div>
 
       </div>

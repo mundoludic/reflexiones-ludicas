@@ -43,8 +43,14 @@
 
 		$('#BFW').append('<hr><br><a href="http://feeds.feedburner.com/MundoLudic"><i class="fi-rss"></i><h6>Subscríbite al rss del blog</h6></a>');
 
+		var lang = "<?php echo(get_bloginfo('language')) ?>";
+
+		if(lang=="es-CA"){
+			$('#BFW').attr("onsubmit","window.open('http://feedburner.google.com/fb/a/mailverify?uri=MundoLudic-ca', 'popupwindow', 'scrollbars=yes,width=550,height=520')");
+		}
+
 	})(jQuery);
 </script>
 	
 </body>
-</html>+
+</html>
