@@ -71,6 +71,13 @@ a:hover{
   color: lighten($ml-blue, 10%);
 }
 
+.top-bar-section{
+  color: $white;
+  i{
+    margin-right: 7px;
+  }
+}
+
 /****** HEADER ********/
 
 #head{

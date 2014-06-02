@@ -6625,6 +6625,13 @@ a:hover {
   color: #0097e5;
 }
 
+.top-bar-section {
+  color: white;
+}
+.top-bar-section i {
+  margin-right: 7px;
+}
+
 /****** HEADER ********/
 #head {
   padding: 0;

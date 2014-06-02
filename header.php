@@ -48,23 +48,32 @@
 	        <li class="name">
 	        	<h1><a href="http://www.mundoludic.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo-top-bar" src="<?php echo get_template_directory_uri(); ?>/images/icons/logoTopBarEmpty.png" title="Mundo Ludic">MUNDO LUDIC</a></h1>
 	        </li>
+
 			<!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			<!-- <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li> -->
 	    </ul>
 	    <section class="top-bar-section">
+	    	<ul>
+	    		<li><a href="http://www.mundoludic.com"><i class="fi-thumbnails"></i>Actividades</a></li>
+	    		<li><a href="http://www.mundoludic.com/zona-proveedores/"><i class="fi-widget"></i>Acceso artistas</li>
+	    	</ul>
+	    	<ul class="right">
+	    		<li><a href="http://www.mundoludic.com/#/quienes-somos">Quienes somos</a></li>
+	    		<li><a href="http://www.mundoludic.com/#/preguntas-frecuentes">Preguntas frecuentes</a></li>
+	    	</ul>
 	    <?php
-	        wp_nav_menu( array(
-	            'theme_location' => 'primary',
-	            'container' => false,
-	            'depth' => 0,
-	            'items_wrap' => '<ul class="left">%3$s</ul>',
-	            'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
-	            'walker' => new reverie_walker( array(
-	                'in_top_bar' => true,
-	                'item_type' => 'li',
-	                'menu_type' => 'main-menu'
-	            ) ),
-	        ) );
+	        // wp_nav_menu( array(
+	        //     'theme_location' => 'primary',
+	        //     'container' => false,
+	        //     'depth' => 0,
+	        //     'items_wrap' => '<ul class="left">%3$s</ul>',
+	        //     'fallback_cb' => 'reverie_menu_fallback', // workaround to show a message to set up a menu
+	        //     'walker' => new reverie_walker( array(
+	        //         'in_top_bar' => true,
+	        //         'item_type' => 'li',
+	        //         'menu_type' => 'main-menu'
+	        //     ) ),
+	        // ) );
 	    ?>
 	    <?php
 	    	// Uncomment the following to enable the right menu (additional menu)
@@ -111,27 +120,6 @@
 
       <div class="small-12 large-12 columns text-center slogan">
         <h3>Mueve el mundo <strong class="mundoludic">MUNDO LUDIC</strong></h3>
-      </div>
-
-      <div class="small-12 large-12 columns text-center alta-proveedor">
-      	<h5>
-      	<?php
-      		if (get_bloginfo('language')=="es-ES"){
-                echo "Si eres artista únete a Mundo Ludic...";
-            }else{
-                echo "Si ets artista uneix-te a Mundo Ludic...";	
-			}
-		?>
-        </h5>
-        <a href="http://www.mundoludic.com/login/#/" class="button radius tiny">
-        	<?php
-	      		if (get_bloginfo('language')=="es-ES"){
-	                echo "Regístrate gratis";
-	            }else{
-	                echo "Registra’t gratis";	
-				}
-			?>
-        </a>
       </div>
 
       </div>
