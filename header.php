@@ -119,7 +119,7 @@
       </div>
 
       <div class="small-12 large-12 columns text-center slogan">
-        <h3>Mueve el mundo <strong class="mundoludic">MUNDO LUDIC</strong></h3>
+        <h3>Mueve el mundo</h3><h1>MUNDO LUDIC</h1>
       </div>
 
       </div>

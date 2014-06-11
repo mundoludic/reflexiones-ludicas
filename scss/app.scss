@@ -124,9 +124,14 @@ a:hover{
   h3{
     font-size: rem-calc(25);
     color: darken($white, 10%);
-    strong{
-      font-weight: normal;
-    }
+    display: inline-block;
+    margin-right: 10px;
+  }
+  h1{
+    font-size: rem-calc(30);
+    color: darken($white, 10%);
+    font-weight: normal;
+    display: inline-block;
   }
 }
 
