@@ -43,7 +43,7 @@
 <!-- <header class="contain-to-grid"> -->
 	<!-- Starting the Top-Bar -->
 	<div id="menu" class="fixed">
-	<nav class="top-bar" data-topbar>
+	<nav class="top-bar sticky" data-topbar>
 	    <ul class="title-area">
 	        <li class="name">
 	        	<h1><a href="http://www.mundoludic.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><img class="logo-top-bar" src="<?php echo get_template_directory_uri(); ?>/images/icons/logoTopBarEmpty.png" title="Mundo Ludic">MUNDO LUDIC</a></h1>

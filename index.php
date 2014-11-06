@@ -6,8 +6,15 @@
 	<?php if ( have_posts() ) : ?>
 	
 		<?php /* Start the Loop */ ?>
+
+		<!-- numPost controlar num de post del índice -->
+		<?php $postNum = 0; ?>
+
 		<?php while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'content', get_post_format() ); ?>
+			<!-- visualizamos los 5 primeros posts -->
+			<?php if($postNum<5){  ?>
+				<?php get_template_part( 'content', get_post_format() ); ?>
+			<?php $postNum++; }  ?>
 		<?php endwhile; ?>
 
 		<?php else : ?>
