@@ -115,11 +115,12 @@
       </div>
 
       <div class="small-12 large-12 columns text-center">
-        <a href="#/"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-empty.png"></a>
+        <a href="http://www.mundoludic.com"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/images/logo-empty.png"></a>
       </div>
 
       <div class="small-12 large-12 columns text-center slogan">
-        <h3>Mueve el mundo</h3><h1>MUNDO LUDIC</h1>
+        <h3>Reflexiones más que lúdicas.</h3> <h2>El blog de</h2><h1>&nbsp;<a href="http://www.mundoludic.com" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>">MUNDO LUDIC</a></h1>
+        <h5><a href="http://www.mundoludic.com">Actividades para tus fiestas infantiles</a></h5>
       </div>
 
       </div>

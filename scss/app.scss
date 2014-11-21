@@ -90,7 +90,7 @@ a:hover{
   width: 100%;
   margin-bottom: 40px;
   a{
-  color: darken($white, 10%);
+  color: darken($white, 15%);
   }
 
   a:hover{
@@ -132,6 +132,15 @@ a:hover{
     color: darken($white, 10%);
     font-weight: normal;
     display: inline-block;
+  }
+  h2{
+    font-size: rem-calc(25);
+    color: darken($white, 30%);
+    font-weight: lighter;
+    display: inline-block;
+  }
+  h5 a{
+    color: darken($white, 30%);
   }
 }
 
