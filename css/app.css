@@ -6632,6 +6632,66 @@ a:hover {
   margin-right: 7px;
 }
 
+/****** BANNER ********/
+@-webkit-keyframes cf3FadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  55% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1;
+  }
+
+  45% {
+    opacity: 1;
+  }
+
+  55% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+#text-9 {
+  height: 200px;
+}
+
+#bannerFaddingImages img {
+  position: absolute;
+  left: 0;
+  padding: 0 30px 35px 60px;
+}
+
+#bannerFaddingImages img.topImg {
+  -webkit-animation-name: cf3FadeInOut;
+  -webkit-animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+  -webkit-animation-direction: alternate;
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+  animation-direction: alternate;
+}
+
 /****** HEADER ********/
 #head {
   padding: 0;
