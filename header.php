@@ -13,6 +13,26 @@
 	<!-- Mobile viewport optimized: j.mp/bplateviewport -->
 	<meta name="viewport" content="width=device-width" />
 
+	<!-- Google schema microdata -->
+    <script type="application/ld+json">
+        {
+          "@type": "http://schema.org/EntertainmentBusiness",
+          "http://schema.org/aggregateRating": {
+            "@type": "http://schema.org/AggregateRating",
+            "http://schema.org/ratingValue": "5",
+            "http://schema.org/reviewCount": "137"
+          },
+          "http://schema.org/description": "Blog sobre actividades para niños: fiestas infantiles, talleres educativos, propuestas culturales y lúdicas... Reflexiones más que lúdicas para familias inteligentes.",
+          "http://schema.org/email": "mailto:info@mundoludic.com",
+          "http://schema.org/name": "Blog de Mundo Ludic | Reflexiones más que lúdicas",
+          "http://schema.org/telephone": "668804150",
+          "http://schema.org/url": {
+            "@id": "http://www.mundoludic.com/blog"
+          }
+        }
+    </script>
+	<!-- Fin Google schema microdata -->
+
 	<!-- Favicon and Feed -->
 	<link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
 	<link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
